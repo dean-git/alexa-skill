@@ -1,0 +1,22 @@
+<speak>
+<emphasis>EC2 Exam Tips</emphasis>
+<break time="2s"/>
+<emphasis>EC2 types </emphasis>
+1. <emphasis>on demand</emphasis> - allows you to pay a fixed rate by the hour (or by the second) with no commitment.
+2. <emphasis>reserved</emphasis> - provides you with a capacity reservation and offers a significant discount on the hourly charge for an instance.  You can sign up for a 1 year or 3 year term.
+3. <emphasis>spot</emphasis> - enables you to bid whatever price you want for your instance capacity, providing for even greater savings if your applications have flexible start and end times.
+4. <emphasis>dedicated hosts</emphasis> - physical EC2 server dedicated for your use.  Dedicated hosts can help you reduce costs by allowing you to use your existing server-bound software licenses.  
+
+- <emphasis>spot instance</emphasis> - if a spot instance is terminated by EC2 you will not be charged for the partial hour.  However if you terminate you are charged for the complete hour.
+
+<emphasis>SSD types</emphasis>
+<break time="2s"/>
+-<emphasis>General purpose SSD</emphasis> - balances price and performance for a wide variety of workloads.
+-<emphasis>Provisioned IOPS SSD</emphasis> - Highest performance SSD volume for mission critical low latency high throughput workloads.
+
+<emphasis>Magnetic drives</emphasis>
+<break time="2s"/>
+-<emphasis>Throughput Optimized HDD</emphasis> - low cost HDD volume designed for frequently accessed, throughput intensive workloads.
+-<emphasis>Cold HDD</emphasis> - lowest cost HDD volume designed for less frequently accessed workloads.
+-<emphasis>Magnetic</emphasis> - previous generation; can be boot volume.
+</speak>
